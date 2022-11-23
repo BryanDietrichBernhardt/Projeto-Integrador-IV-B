@@ -136,3 +136,8 @@ small {
 header {
   height: 90px;
 }
+
+article {
+  max-width: 1200px;
+  margin: 0 auto;
+}

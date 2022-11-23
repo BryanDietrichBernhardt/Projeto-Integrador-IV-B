@@ -94,7 +94,7 @@ const Form = () => {
           <div className={styles.input_group}>
             <label>
               <span>CPF:</span>
-              <input type="cpf" name='cpf' placeholder='Apenas números' onChange={handleCpf} value={cpf} required />
+              <input type="cpf" name='cpf' placeholder='Apenas números' onChange={handleCpf} value={cpf} maxlength="14" required />
             </label>
             <label>
               <span>Telefone:</span>

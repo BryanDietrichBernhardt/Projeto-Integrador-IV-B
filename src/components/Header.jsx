@@ -1,4 +1,4 @@
-import './Header.module.css';
+import styles from './Header.module.css';
 
 const Header = ({navegateInicio, navegatePrevencoes, navegateAtendimento}) => {
 
@@ -10,7 +10,7 @@ const Header = ({navegateInicio, navegatePrevencoes, navegateAtendimento}) => {
       </a>
       <nav>
         <div>
-          <ul>
+          <ul className={styles.navbar}>
             <li>
               <a onClick={navegateInicio} className='bold'>Início</a>
             </li>

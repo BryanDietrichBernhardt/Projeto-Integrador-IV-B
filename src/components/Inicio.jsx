@@ -1,9 +1,12 @@
+import styles from './Inicio.module.css';
 
 const Inicio = () => {
   return (
     <section>
-      <h1>Início</h1>
-      <p>Teste</p>
+      <h2>Início</h2>
+      <article>
+        <p>Teste</p>
+      </article>
     </section>
   )
 }
