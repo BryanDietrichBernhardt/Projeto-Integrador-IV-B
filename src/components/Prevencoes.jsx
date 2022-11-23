@@ -1,7 +1,11 @@
+import styles from './Prevencoes.module.css'
 
 const Prevencoes = () => {
   return (
-    <div>Prevencoes</div>
+    <section>
+      <h2>Prevenções</h2>
+      
+    </section>
   )
 }
 

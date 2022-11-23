@@ -62,7 +62,7 @@ const Form = () => {
   function mask(e) {
     setTimeout(function() {
       var v = mphone(e.target.value);
-      if (v != e.target.value) {
+      if (v !== e.target.value) {
         e.target.value = v;
       }
     }, 1);
@@ -232,7 +232,7 @@ const Form = () => {
       </div>
       <div className={styles.buttons}>
         <div>
-          <input className={styles.button} onClick={() => {setEmail(''); setName('');}} type="button" value="Cancelar" />
+          <input className={styles.button} onClick={() => {setEmail(''); setName(''); setCpf(''); setPhone(''); setAge(''); setObservations('');}} type="button" value="Cancelar" />
           <input className={styles.button} type="submit" value="Enviar" />
         </div>
       </div>

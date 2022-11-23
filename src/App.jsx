@@ -2,7 +2,7 @@
 import './App.css';
 
 // React
-import { useCallback, useEffect, useState } from 'react';
+import { useState } from 'react';
 
 // components
 import Form from './components/Form';

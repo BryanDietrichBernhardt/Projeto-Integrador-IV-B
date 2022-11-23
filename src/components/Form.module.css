@@ -7,7 +7,6 @@ form {
   flex-direction: row;
   gap: 100px;
   margin-bottom: 150px;
-  
 }
 
 .form_page {
@@ -56,4 +55,14 @@ label {
 .checkbox_group {
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 700px) and (orientation: portrait) {
+  .pages_group {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .form_page {
+    width: 100%;
+  }
 }

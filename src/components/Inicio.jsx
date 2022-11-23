@@ -1,7 +1,10 @@
 
 const Inicio = () => {
   return (
-    <div>Inicio</div>
+    <section>
+      <h1>Início</h1>
+      <p>Teste</p>
+    </section>
   )
 }
 
